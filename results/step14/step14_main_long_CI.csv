@@ -1,0 +1,161 @@
+split,operating_point,method,display,metric,scale,metric_scope,estimate,ci95_lower,ci95_upper,valid_replicates
+id_test,primary,PROPOSED_GCN_GRU_FULL,Proposed GCN-GRU Full16 (5-seed mean),P1,percent,frozen_endpoint_or_scenario,63.844444444444434,62.15555555555555,65.55611111111112,1000
+id_test,primary,PROPOSED_GCN_GRU_FULL,Proposed GCN-GRU Full16 (5-seed mean),P2_overall,percent,frozen_endpoint_or_scenario,0.8121100917431192,0.6546697247706421,0.9961192660550455,1000
+id_test,primary,PROPOSED_GCN_GRU_FULL,Proposed GCN-GRU Full16 (5-seed mean),P2_BESS,percent,frozen_endpoint_or_scenario,0.9504587155963303,0.6678440366972478,1.3249999999999997,1000
+id_test,primary,PROPOSED_GCN_GRU_FULL,Proposed GCN-GRU Full16 (5-seed mean),P2_PV,percent,frozen_endpoint_or_scenario,0.7119266055045872,0.3981651376146789,1.0881651376146788,1000
+id_test,primary,PROPOSED_GCN_GRU_FULL,Proposed GCN-GRU Full16 (5-seed mean),P3,percent,frozen_endpoint_or_scenario,48.590400529778975,47.508155352194095,49.532591818225775,1000
+id_test,primary,PROPOSED_GCN_GRU_FULL,Proposed GCN-GRU Full16 (5-seed mean),Loc_Top1,percent,frozen_endpoint_or_scenario,54.67050131402787,53.04663362979702,56.23025317820453,1000
+id_test,primary,PROPOSED_GCN_GRU_FULL,Proposed GCN-GRU Full16 (5-seed mean),Loc_Top3,percent,frozen_endpoint_or_scenario,55.457926315267514,53.79207666605831,57.089352280249706,1000
+id_test,primary,PROPOSED_GCN_GRU_FULL,Proposed GCN-GRU Full16 (5-seed mean),scenario_AUPRC,unit_interval,posthoc_scenario_level,0.8951280053899595,0.8882747396548428,0.9019541078777816,1000
+id_test,primary,PROPOSED_GCN_GRU_FULL,Proposed GCN-GRU Full16 (5-seed mean),scenario_AUROC,unit_interval,posthoc_scenario_level,0.7773942222222222,0.7633520444444445,0.7908396333333333,1000
+id_test,primary,PROPOSED_GCN_GRU_FULL,Proposed GCN-GRU Full16 (5-seed mean),recall_at_posthoc_1pct_benign_scenario_FPR,percent,posthoc_scenario_level,57.95555555555556,56.24333333333333,59.75666666666666,1000
+id_test,primary,GRU_FULL,GRU Full (5-seed mean),P1,percent,frozen_endpoint_or_scenario,68.51111111111112,66.84444444444445,70.2,1000
+id_test,primary,GRU_FULL,GRU Full (5-seed mean),P2_overall,percent,frozen_endpoint_or_scenario,0.9482568807339449,0.8733853211009174,1.031954128440367,1000
+id_test,primary,GRU_FULL,GRU Full (5-seed mean),P2_BESS,percent,frozen_endpoint_or_scenario,1.2055045871559633,1.067889908256881,1.346834862385321,1000
+id_test,primary,GRU_FULL,GRU Full (5-seed mean),P2_PV,percent,frozen_endpoint_or_scenario,0.6477064220183485,0.49357798165137623,0.8146788990825687,1000
+id_test,primary,GRU_FULL,GRU Full (5-seed mean),P3,percent,frozen_endpoint_or_scenario,48.74392618146122,47.55048063184821,49.80586316815401,1000
+id_test,primary,GRU_FULL,GRU Full (5-seed mean),Loc_Top1,percent,frozen_endpoint_or_scenario,51.14196459562651,49.6989801747653,52.45083977962144,1000
+id_test,primary,GRU_FULL,GRU Full (5-seed mean),Loc_Top3,percent,frozen_endpoint_or_scenario,52.93400109089106,51.41627662767934,54.38362773058287,1000
+id_test,primary,GRU_FULL,GRU Full (5-seed mean),scenario_AUPRC,unit_interval,posthoc_scenario_level,0.9026136587814427,0.8966867038954518,0.9084105971531312,1000
+id_test,primary,GRU_FULL,GRU Full (5-seed mean),scenario_AUROC,unit_interval,posthoc_scenario_level,0.7943553333333334,0.7822761777777779,0.8053964833333334,1000
+id_test,primary,GRU_FULL,GRU Full (5-seed mean),recall_at_posthoc_1pct_benign_scenario_FPR,percent,posthoc_scenario_level,58.4,56.73222222222222,60.422222222222224,1000
+id_test,primary,LightGBM_FULL16,LightGBM Full16,P1,percent,frozen_endpoint_or_scenario,84.44444444444444,82.33333333333334,86.44444444444444,1000
+id_test,primary,LightGBM_FULL16,LightGBM Full16,P2_overall,percent,frozen_endpoint_or_scenario,1.0477064220183485,0.8310550458715595,1.3138073394495413,1000
+id_test,primary,LightGBM_FULL16,LightGBM Full16,P2_BESS,percent,frozen_endpoint_or_scenario,0.4678899082568807,0.33004587155963305,0.6332568807339447,1000
+id_test,primary,LightGBM_FULL16,LightGBM Full16,P2_PV,percent,frozen_endpoint_or_scenario,0.27522935779816515,0.1743119266055046,0.3944954128440367,1000
+id_test,primary,LightGBM_FULL16,LightGBM Full16,P3,percent,frozen_endpoint_or_scenario,51.40479210613709,50.102599584929706,52.71272663315241,1000
+id_test,primary,LightGBM_FULL16,LightGBM Full16,Loc_Top1,percent,frozen_endpoint_or_scenario,57.56929637526652,55.878749276906724,59.173630318808875,1000
+id_test,primary,LightGBM_FULL16,LightGBM Full16,Loc_Top3,percent,frozen_endpoint_or_scenario,58.52630535032479,56.792793442978876,60.1988155668777,1000
+id_test,primary,LightGBM_FULL16,LightGBM Full16,scenario_AUPRC,unit_interval,posthoc_scenario_level,0.928599447077946,0.9212511369172526,0.9357445922525899,1000
+id_test,primary,LightGBM_FULL16,LightGBM Full16,scenario_AUROC,unit_interval,posthoc_scenario_level,0.85686,0.8419560555555556,0.8717311666666666,1000
+id_test,primary,LightGBM_FULL16,LightGBM Full16,recall_at_posthoc_1pct_benign_scenario_FPR,percent,posthoc_scenario_level,57.22222222222222,54.55555555555556,60.333333333333336,1000
+id_test,primary,COMBINED_PF_COMMAND_THRESHOLD,Combined PF+Command (designated baseline),P1,percent,frozen_endpoint_or_scenario,22.333333333333332,20.0,24.666666666666668,1000
+id_test,primary,COMBINED_PF_COMMAND_THRESHOLD,Combined PF+Command (designated baseline),P2_overall,percent,frozen_endpoint_or_scenario,0.9486238532110092,0.8678899082568808,1.0312385321100916,1000
+id_test,primary,COMBINED_PF_COMMAND_THRESHOLD,Combined PF+Command (designated baseline),P2_BESS,percent,frozen_endpoint_or_scenario,4.651376146788991,4.2568807339449535,5.073394495412844,1000
+id_test,primary,COMBINED_PF_COMMAND_THRESHOLD,Combined PF+Command (designated baseline),P2_PV,percent,frozen_endpoint_or_scenario,0.009174311926605505,0.0,0.027522935779816515,1000
+id_test,primary,COMBINED_PF_COMMAND_THRESHOLD,Combined PF+Command (designated baseline),P3,percent,frozen_endpoint_or_scenario,,,,0
+id_test,primary,COMBINED_PF_COMMAND_THRESHOLD,Combined PF+Command (designated baseline),Loc_Top1,percent,frozen_endpoint_or_scenario,,,,0
+id_test,primary,COMBINED_PF_COMMAND_THRESHOLD,Combined PF+Command (designated baseline),Loc_Top3,percent,frozen_endpoint_or_scenario,,,,0
+id_test,primary,COMBINED_PF_COMMAND_THRESHOLD,Combined PF+Command (designated baseline),scenario_AUPRC,unit_interval,posthoc_scenario_level,,,,0
+id_test,primary,COMBINED_PF_COMMAND_THRESHOLD,Combined PF+Command (designated baseline),scenario_AUROC,unit_interval,posthoc_scenario_level,,,,0
+id_test,primary,COMBINED_PF_COMMAND_THRESHOLD,Combined PF+Command (designated baseline),recall_at_posthoc_1pct_benign_scenario_FPR,percent,posthoc_scenario_level,,,,0
+id_test,secondary,PROPOSED_GCN_GRU_FULL,Proposed GCN-GRU Full16 (5-seed mean),P1,percent,frozen_endpoint_or_scenario,59.66666666666666,57.86555555555556,61.42277777777778,1000
+id_test,secondary,PROPOSED_GCN_GRU_FULL,Proposed GCN-GRU Full16 (5-seed mean),P2_overall,percent,frozen_endpoint_or_scenario,0.14495412844036698,0.11963302752293578,0.170651376146789,1000
+id_test,secondary,PROPOSED_GCN_GRU_FULL,Proposed GCN-GRU Full16 (5-seed mean),P2_BESS,percent,frozen_endpoint_or_scenario,0.4091743119266055,0.35045871559633035,0.4678899082568808,1000
+id_test,secondary,PROPOSED_GCN_GRU_FULL,Proposed GCN-GRU Full16 (5-seed mean),P2_PV,percent,frozen_endpoint_or_scenario,0.06605504587155964,0.014633027522935781,0.14678899082568808,1000
+id_test,secondary,PROPOSED_GCN_GRU_FULL,Proposed GCN-GRU Full16 (5-seed mean),P3,percent,frozen_endpoint_or_scenario,48.30805739128568,47.23305353031648,49.25671058976149,1000
+id_test,secondary,PROPOSED_GCN_GRU_FULL,Proposed GCN-GRU Full16 (5-seed mean),Loc_Top1,percent,frozen_endpoint_or_scenario,54.353151187583684,52.749148918178,55.906873683083134,1000
+id_test,secondary,PROPOSED_GCN_GRU_FULL,Proposed GCN-GRU Full16 (5-seed mean),Loc_Top3,percent,frozen_endpoint_or_scenario,55.035453959438684,53.415876671706684,56.66243091167854,1000
+id_test,secondary,PROPOSED_GCN_GRU_FULL,Proposed GCN-GRU Full16 (5-seed mean),scenario_AUPRC,unit_interval,posthoc_scenario_level,0.8951280053899595,0.8882747396548428,0.9019541078777816,1000
+id_test,secondary,PROPOSED_GCN_GRU_FULL,Proposed GCN-GRU Full16 (5-seed mean),scenario_AUROC,unit_interval,posthoc_scenario_level,0.7773942222222222,0.7633520444444445,0.7908396333333333,1000
+id_test,secondary,PROPOSED_GCN_GRU_FULL,Proposed GCN-GRU Full16 (5-seed mean),recall_at_posthoc_1pct_benign_scenario_FPR,percent,posthoc_scenario_level,57.95555555555556,56.24333333333333,59.75666666666666,1000
+id_test,secondary,GRU_FULL,GRU Full (5-seed mean),P1,percent,frozen_endpoint_or_scenario,63.555555555555564,61.84388888888888,65.46666666666667,1000
+id_test,secondary,GRU_FULL,GRU Full (5-seed mean),P2_overall,percent,frozen_endpoint_or_scenario,0.4187155963302752,0.37430275229357796,0.4675321100917432,1000
+id_test,secondary,GRU_FULL,GRU Full (5-seed mean),P2_BESS,percent,frozen_endpoint_or_scenario,0.5339449541284405,0.44036697247706424,0.6330733944954128,1000
+id_test,secondary,GRU_FULL,GRU Full (5-seed mean),P2_PV,percent,frozen_endpoint_or_scenario,0.2623853211009175,0.17431192660550457,0.3615596330275229,1000
+id_test,secondary,GRU_FULL,GRU Full (5-seed mean),P3,percent,frozen_endpoint_or_scenario,48.33477403236201,47.13038196329153,49.385942872997276,1000
+id_test,secondary,GRU_FULL,GRU Full (5-seed mean),Loc_Top1,percent,frozen_endpoint_or_scenario,50.66792284425051,49.2163110230624,51.96800894280699,1000
+id_test,secondary,GRU_FULL,GRU Full (5-seed mean),Loc_Top3,percent,frozen_endpoint_or_scenario,52.298309118857546,50.75806373771904,53.71665501536215,1000
+id_test,secondary,GRU_FULL,GRU Full (5-seed mean),scenario_AUPRC,unit_interval,posthoc_scenario_level,0.9026136587814427,0.8966867038954518,0.9084105971531312,1000
+id_test,secondary,GRU_FULL,GRU Full (5-seed mean),scenario_AUROC,unit_interval,posthoc_scenario_level,0.7943553333333334,0.7822761777777779,0.8053964833333334,1000
+id_test,secondary,GRU_FULL,GRU Full (5-seed mean),recall_at_posthoc_1pct_benign_scenario_FPR,percent,posthoc_scenario_level,58.4,56.73222222222222,60.422222222222224,1000
+id_test,secondary,LightGBM_FULL16,LightGBM Full16,P1,percent,frozen_endpoint_or_scenario,80.66666666666666,78.55555555555556,82.77777777777777,1000
+id_test,secondary,LightGBM_FULL16,LightGBM Full16,P2_overall,percent,frozen_endpoint_or_scenario,0.8275229357798165,0.6495412844036698,1.035045871559633,1000
+id_test,secondary,LightGBM_FULL16,LightGBM Full16,P2_BESS,percent,frozen_endpoint_or_scenario,0.3761467889908257,0.2477064220183486,0.5229357798165137,1000
+id_test,secondary,LightGBM_FULL16,LightGBM Full16,P2_PV,percent,frozen_endpoint_or_scenario,0.22018348623853212,0.13761467889908258,0.3211009174311927,1000
+id_test,secondary,LightGBM_FULL16,LightGBM Full16,P3,percent,frozen_endpoint_or_scenario,50.88134172359723,49.66982928102257,52.09359285003092,1000
+id_test,secondary,LightGBM_FULL16,LightGBM Full16,Loc_Top1,percent,frozen_endpoint_or_scenario,56.84038280359003,55.20288195661291,58.389948385977085,1000
+id_test,secondary,LightGBM_FULL16,LightGBM Full16,Loc_Top3,percent,frozen_endpoint_or_scenario,57.67838548123172,56.00792061641244,59.27717509988274,1000
+id_test,secondary,LightGBM_FULL16,LightGBM Full16,scenario_AUPRC,unit_interval,posthoc_scenario_level,0.928599447077946,0.9212511369172526,0.9357445922525899,1000
+id_test,secondary,LightGBM_FULL16,LightGBM Full16,scenario_AUROC,unit_interval,posthoc_scenario_level,0.85686,0.8419560555555556,0.8717311666666666,1000
+id_test,secondary,LightGBM_FULL16,LightGBM Full16,recall_at_posthoc_1pct_benign_scenario_FPR,percent,posthoc_scenario_level,57.22222222222222,54.55555555555556,60.333333333333336,1000
+id_test,secondary,COMBINED_PF_COMMAND_THRESHOLD,Combined PF+Command (designated baseline),P1,percent,frozen_endpoint_or_scenario,58.666666666666664,56.66388888888889,60.78055555555555,1000
+id_test,secondary,COMBINED_PF_COMMAND_THRESHOLD,Combined PF+Command (designated baseline),P2_overall,percent,frozen_endpoint_or_scenario,2.1779816513761467,2.0844036697247708,2.2788990825688074,1000
+id_test,secondary,COMBINED_PF_COMMAND_THRESHOLD,Combined PF+Command (designated baseline),P2_BESS,percent,frozen_endpoint_or_scenario,9.486238532110091,9.09151376146789,9.899082568807339,1000
+id_test,secondary,COMBINED_PF_COMMAND_THRESHOLD,Combined PF+Command (designated baseline),P2_PV,percent,frozen_endpoint_or_scenario,0.22935779816513763,0.13761467889908258,0.3302752293577982,1000
+id_test,secondary,COMBINED_PF_COMMAND_THRESHOLD,Combined PF+Command (designated baseline),P3,percent,frozen_endpoint_or_scenario,,,,0
+id_test,secondary,COMBINED_PF_COMMAND_THRESHOLD,Combined PF+Command (designated baseline),Loc_Top1,percent,frozen_endpoint_or_scenario,,,,0
+id_test,secondary,COMBINED_PF_COMMAND_THRESHOLD,Combined PF+Command (designated baseline),Loc_Top3,percent,frozen_endpoint_or_scenario,,,,0
+id_test,secondary,COMBINED_PF_COMMAND_THRESHOLD,Combined PF+Command (designated baseline),scenario_AUPRC,unit_interval,posthoc_scenario_level,,,,0
+id_test,secondary,COMBINED_PF_COMMAND_THRESHOLD,Combined PF+Command (designated baseline),scenario_AUROC,unit_interval,posthoc_scenario_level,,,,0
+id_test,secondary,COMBINED_PF_COMMAND_THRESHOLD,Combined PF+Command (designated baseline),recall_at_posthoc_1pct_benign_scenario_FPR,percent,posthoc_scenario_level,,,,0
+ood_test,primary,PROPOSED_GCN_GRU_FULL,Proposed GCN-GRU Full16 (5-seed mean),P1,percent,frozen_endpoint_or_scenario,63.15555555555555,61.59944444444444,64.88888888888889,1000
+ood_test,primary,PROPOSED_GCN_GRU_FULL,Proposed GCN-GRU Full16 (5-seed mean),P2_overall,percent,frozen_endpoint_or_scenario,0.3757798165137615,0.3258532110091743,0.4308256880733945,1000
+ood_test,primary,PROPOSED_GCN_GRU_FULL,Proposed GCN-GRU Full16 (5-seed mean),P2_BESS,percent,frozen_endpoint_or_scenario,0.5853211009174312,0.49174311926605513,0.673440366972477,1000
+ood_test,primary,PROPOSED_GCN_GRU_FULL,Proposed GCN-GRU Full16 (5-seed mean),P2_PV,percent,frozen_endpoint_or_scenario,0.44220183486238535,0.23853211009174313,0.671559633027523,1000
+ood_test,primary,PROPOSED_GCN_GRU_FULL,Proposed GCN-GRU Full16 (5-seed mean),P3,percent,frozen_endpoint_or_scenario,44.320937593762174,43.02794817097328,45.62423856409745,1000
+ood_test,primary,PROPOSED_GCN_GRU_FULL,Proposed GCN-GRU Full16 (5-seed mean),Loc_Top1,percent,frozen_endpoint_or_scenario,52.3312089225254,50.96316300397571,53.78766825635771,1000
+ood_test,primary,PROPOSED_GCN_GRU_FULL,Proposed GCN-GRU Full16 (5-seed mean),Loc_Top3,percent,frozen_endpoint_or_scenario,53.126867157936665,51.72846233490315,54.59056703913878,1000
+ood_test,primary,PROPOSED_GCN_GRU_FULL,Proposed GCN-GRU Full16 (5-seed mean),scenario_AUPRC,unit_interval,posthoc_scenario_level,0.8914237732687817,0.8849897999473695,0.8984553125961648,1000
+ood_test,primary,PROPOSED_GCN_GRU_FULL,Proposed GCN-GRU Full16 (5-seed mean),scenario_AUROC,unit_interval,posthoc_scenario_level,0.7692857777777777,0.7559389777777777,0.7828787111111112,1000
+ood_test,primary,PROPOSED_GCN_GRU_FULL,Proposed GCN-GRU Full16 (5-seed mean),recall_at_posthoc_1pct_benign_scenario_FPR,percent,posthoc_scenario_level,56.51111111111111,54.93277777777777,58.31111111111112,1000
+ood_test,primary,GRU_FULL,GRU Full (5-seed mean),P1,percent,frozen_endpoint_or_scenario,67.80000000000001,66.26666666666668,69.28888888888889,1000
+ood_test,primary,GRU_FULL,GRU Full (5-seed mean),P2_overall,percent,frozen_endpoint_or_scenario,1.6073394495412845,1.4976055045871561,1.7192935779816514,1000
+ood_test,primary,GRU_FULL,GRU Full (5-seed mean),P2_BESS,percent,frozen_endpoint_or_scenario,1.796330275229358,1.5611009174311927,2.0348623853211003,1000
+ood_test,primary,GRU_FULL,GRU Full (5-seed mean),P2_PV,percent,frozen_endpoint_or_scenario,1.0623853211009175,0.873394495412844,1.2477522935779817,1000
+ood_test,primary,GRU_FULL,GRU Full (5-seed mean),P3,percent,frozen_endpoint_or_scenario,36.68642932000963,34.76915126850771,38.548701483694074,1000
+ood_test,primary,GRU_FULL,GRU Full (5-seed mean),Loc_Top1,percent,frozen_endpoint_or_scenario,38.94443337980482,37.02782438800137,40.81321443897908,1000
+ood_test,primary,GRU_FULL,GRU Full (5-seed mean),Loc_Top3,percent,frozen_endpoint_or_scenario,40.78370842461661,38.859353510567104,42.64167985498002,1000
+ood_test,primary,GRU_FULL,GRU Full (5-seed mean),scenario_AUPRC,unit_interval,posthoc_scenario_level,0.8840987164081499,0.87797354404126,0.890135928589205,1000
+ood_test,primary,GRU_FULL,GRU Full (5-seed mean),scenario_AUROC,unit_interval,posthoc_scenario_level,0.7540995555555555,0.7411294888888889,0.7662347666666667,1000
+ood_test,primary,GRU_FULL,GRU Full (5-seed mean),recall_at_posthoc_1pct_benign_scenario_FPR,percent,posthoc_scenario_level,53.64444444444445,51.465555555555554,55.68888888888889,1000
+ood_test,primary,LightGBM_FULL16,LightGBM Full16,P1,percent,frozen_endpoint_or_scenario,78.55555555555556,76.11111111111111,81.0,1000
+ood_test,primary,LightGBM_FULL16,LightGBM Full16,P2_overall,percent,frozen_endpoint_or_scenario,1.2532110091743118,1.128440366972477,1.385366972477064,1000
+ood_test,primary,LightGBM_FULL16,LightGBM Full16,P2_BESS,percent,frozen_endpoint_or_scenario,1.036697247706422,0.8073394495412843,1.2752293577981653,1000
+ood_test,primary,LightGBM_FULL16,LightGBM Full16,P2_PV,percent,frozen_endpoint_or_scenario,0.4862385321100917,0.3394495412844037,0.6330275229357798,1000
+ood_test,primary,LightGBM_FULL16,LightGBM Full16,P3,percent,frozen_endpoint_or_scenario,40.796325419384374,39.09598096222216,42.419376164582225,1000
+ood_test,primary,LightGBM_FULL16,LightGBM Full16,Loc_Top1,percent,frozen_endpoint_or_scenario,41.33140808603864,39.19776716447779,43.369633787989834,1000
+ood_test,primary,LightGBM_FULL16,LightGBM Full16,Loc_Top3,percent,frozen_endpoint_or_scenario,42.013543118900614,39.82356780192975,44.091510629236986,1000
+ood_test,primary,LightGBM_FULL16,LightGBM Full16,scenario_AUPRC,unit_interval,posthoc_scenario_level,0.8790399897344557,0.8674347626307456,0.8901043032691031,1000
+ood_test,primary,LightGBM_FULL16,LightGBM Full16,scenario_AUROC,unit_interval,posthoc_scenario_level,0.7661155555555555,0.7439824444444445,0.7869173888888888,1000
+ood_test,primary,LightGBM_FULL16,LightGBM Full16,recall_at_posthoc_1pct_benign_scenario_FPR,percent,posthoc_scenario_level,41.66666666666667,39.111111111111114,44.44444444444444,1000
+ood_test,primary,COMBINED_PF_COMMAND_THRESHOLD,Combined PF+Command (designated baseline),P1,percent,frozen_endpoint_or_scenario,14.555555555555555,12.552777777777779,16.666666666666664,1000
+ood_test,primary,COMBINED_PF_COMMAND_THRESHOLD,Combined PF+Command (designated baseline),P2_overall,percent,frozen_endpoint_or_scenario,0.9614678899082568,0.871559633027523,1.0495871559633028,1000
+ood_test,primary,COMBINED_PF_COMMAND_THRESHOLD,Combined PF+Command (designated baseline),P2_BESS,percent,frozen_endpoint_or_scenario,4.7889908256880735,4.339449541284403,5.229357798165138,1000
+ood_test,primary,COMBINED_PF_COMMAND_THRESHOLD,Combined PF+Command (designated baseline),P2_PV,percent,frozen_endpoint_or_scenario,0.009174311926605505,0.0,0.027522935779816515,1000
+ood_test,primary,COMBINED_PF_COMMAND_THRESHOLD,Combined PF+Command (designated baseline),P3,percent,frozen_endpoint_or_scenario,,,,0
+ood_test,primary,COMBINED_PF_COMMAND_THRESHOLD,Combined PF+Command (designated baseline),Loc_Top1,percent,frozen_endpoint_or_scenario,,,,0
+ood_test,primary,COMBINED_PF_COMMAND_THRESHOLD,Combined PF+Command (designated baseline),Loc_Top3,percent,frozen_endpoint_or_scenario,,,,0
+ood_test,primary,COMBINED_PF_COMMAND_THRESHOLD,Combined PF+Command (designated baseline),scenario_AUPRC,unit_interval,posthoc_scenario_level,,,,0
+ood_test,primary,COMBINED_PF_COMMAND_THRESHOLD,Combined PF+Command (designated baseline),scenario_AUROC,unit_interval,posthoc_scenario_level,,,,0
+ood_test,primary,COMBINED_PF_COMMAND_THRESHOLD,Combined PF+Command (designated baseline),recall_at_posthoc_1pct_benign_scenario_FPR,percent,posthoc_scenario_level,,,,0
+ood_test,secondary,PROPOSED_GCN_GRU_FULL,Proposed GCN-GRU Full16 (5-seed mean),P1,percent,frozen_endpoint_or_scenario,58.599999999999994,56.93333333333334,60.334444444444436,1000
+ood_test,secondary,PROPOSED_GCN_GRU_FULL,Proposed GCN-GRU Full16 (5-seed mean),P2_overall,percent,frozen_endpoint_or_scenario,0.13724770642201836,0.1181651376146789,0.15743119266055047,1000
+ood_test,secondary,PROPOSED_GCN_GRU_FULL,Proposed GCN-GRU Full16 (5-seed mean),P2_BESS,percent,frozen_endpoint_or_scenario,0.34678899082568804,0.2880275229357798,0.4073394495412845,1000
+ood_test,secondary,PROPOSED_GCN_GRU_FULL,Proposed GCN-GRU Full16 (5-seed mean),P2_PV,percent,frozen_endpoint_or_scenario,0.04036697247706423,0.011009174311926606,0.08990825688073394,1000
+ood_test,secondary,PROPOSED_GCN_GRU_FULL,Proposed GCN-GRU Full16 (5-seed mean),P3,percent,frozen_endpoint_or_scenario,44.0542478125475,42.75161894575662,45.35575988752934,1000
+ood_test,secondary,PROPOSED_GCN_GRU_FULL,Proposed GCN-GRU Full16 (5-seed mean),Loc_Top1,percent,frozen_endpoint_or_scenario,52.07926707827125,50.73563725511448,53.531244385232846,1000
+ood_test,secondary,PROPOSED_GCN_GRU_FULL,Proposed GCN-GRU Full16 (5-seed mean),Loc_Top3,percent,frozen_endpoint_or_scenario,52.79127663811989,51.37738046350109,54.24868699302069,1000
+ood_test,secondary,PROPOSED_GCN_GRU_FULL,Proposed GCN-GRU Full16 (5-seed mean),scenario_AUPRC,unit_interval,posthoc_scenario_level,0.8914237732687817,0.8849897999473695,0.8984553125961648,1000
+ood_test,secondary,PROPOSED_GCN_GRU_FULL,Proposed GCN-GRU Full16 (5-seed mean),scenario_AUROC,unit_interval,posthoc_scenario_level,0.7692857777777777,0.7559389777777777,0.7828787111111112,1000
+ood_test,secondary,PROPOSED_GCN_GRU_FULL,Proposed GCN-GRU Full16 (5-seed mean),recall_at_posthoc_1pct_benign_scenario_FPR,percent,posthoc_scenario_level,56.51111111111111,54.93277777777777,58.31111111111112,1000
+ood_test,secondary,GRU_FULL,GRU Full (5-seed mean),P1,percent,frozen_endpoint_or_scenario,61.88888888888889,60.26611111111111,63.44500000000001,1000
+ood_test,secondary,GRU_FULL,GRU Full (5-seed mean),P2_overall,percent,frozen_endpoint_or_scenario,0.6590825688073394,0.5970091743119266,0.7258899082568806,1000
+ood_test,secondary,GRU_FULL,GRU Full (5-seed mean),P2_BESS,percent,frozen_endpoint_or_scenario,0.6623853211009174,0.5394036697247706,0.7926605504587155,1000
+ood_test,secondary,GRU_FULL,GRU Full (5-seed mean),P2_PV,percent,frozen_endpoint_or_scenario,0.4238532110091743,0.3210550458715597,0.5266972477064219,1000
+ood_test,secondary,GRU_FULL,GRU Full (5-seed mean),P3,percent,frozen_endpoint_or_scenario,36.24755884691202,34.34468889238397,38.094511824960655,1000
+ood_test,secondary,GRU_FULL,GRU Full (5-seed mean),Loc_Top1,percent,frozen_endpoint_or_scenario,38.49930292770365,36.56454716892898,40.37318894384788,1000
+ood_test,secondary,GRU_FULL,GRU Full (5-seed mean),Loc_Top3,percent,frozen_endpoint_or_scenario,40.230033857797245,38.32734715510765,42.06901169869776,1000
+ood_test,secondary,GRU_FULL,GRU Full (5-seed mean),scenario_AUPRC,unit_interval,posthoc_scenario_level,0.8840987164081499,0.87797354404126,0.890135928589205,1000
+ood_test,secondary,GRU_FULL,GRU Full (5-seed mean),scenario_AUROC,unit_interval,posthoc_scenario_level,0.7540995555555555,0.7411294888888889,0.7662347666666667,1000
+ood_test,secondary,GRU_FULL,GRU Full (5-seed mean),recall_at_posthoc_1pct_benign_scenario_FPR,percent,posthoc_scenario_level,53.64444444444445,51.465555555555554,55.68888888888889,1000
+ood_test,secondary,LightGBM_FULL16,LightGBM Full16,P1,percent,frozen_endpoint_or_scenario,75.22222222222223,72.44444444444444,77.88888888888889,1000
+ood_test,secondary,LightGBM_FULL16,LightGBM Full16,P2_overall,percent,frozen_endpoint_or_scenario,0.9522935779816513,0.8458256880733945,1.0623853211009175,1000
+ood_test,secondary,LightGBM_FULL16,LightGBM Full16,P2_BESS,percent,frozen_endpoint_or_scenario,0.834862385321101,0.6422018348623854,1.036926605504587,1000
+ood_test,secondary,LightGBM_FULL16,LightGBM Full16,P2_PV,percent,frozen_endpoint_or_scenario,0.3944954128440367,0.25688073394495414,0.5323394495412841,1000
+ood_test,secondary,LightGBM_FULL16,LightGBM Full16,P3,percent,frozen_endpoint_or_scenario,40.41738034519631,38.74949503182707,42.01248138715501,1000
+ood_test,secondary,LightGBM_FULL16,LightGBM Full16,Loc_Top1,percent,frozen_endpoint_or_scenario,40.86835291774547,38.74986305598945,42.889818885175664,1000
+ood_test,secondary,LightGBM_FULL16,LightGBM Full16,Loc_Top3,percent,frozen_endpoint_or_scenario,41.51563433578968,39.378918440001165,43.58898440562316,1000
+ood_test,secondary,LightGBM_FULL16,LightGBM Full16,scenario_AUPRC,unit_interval,posthoc_scenario_level,0.8790399897344557,0.8674347626307456,0.8901043032691031,1000
+ood_test,secondary,LightGBM_FULL16,LightGBM Full16,scenario_AUROC,unit_interval,posthoc_scenario_level,0.7661155555555555,0.7439824444444445,0.7869173888888888,1000
+ood_test,secondary,LightGBM_FULL16,LightGBM Full16,recall_at_posthoc_1pct_benign_scenario_FPR,percent,posthoc_scenario_level,41.66666666666667,39.111111111111114,44.44444444444444,1000
+ood_test,secondary,COMBINED_PF_COMMAND_THRESHOLD,Combined PF+Command (designated baseline),P1,percent,frozen_endpoint_or_scenario,61.66666666666667,59.55555555555555,63.888888888888886,1000
+ood_test,secondary,COMBINED_PF_COMMAND_THRESHOLD,Combined PF+Command (designated baseline),P2_overall,percent,frozen_endpoint_or_scenario,2.9155963302752292,2.7926146788990827,3.040366972477064,1000
+ood_test,secondary,COMBINED_PF_COMMAND_THRESHOLD,Combined PF+Command (designated baseline),P2_BESS,percent,frozen_endpoint_or_scenario,10.220183486238533,9.72454128440367,10.688073394495413,1000
+ood_test,secondary,COMBINED_PF_COMMAND_THRESHOLD,Combined PF+Command (designated baseline),P2_PV,percent,frozen_endpoint_or_scenario,0.5321100917431192,0.3761467889908257,0.6972477064220184,1000
+ood_test,secondary,COMBINED_PF_COMMAND_THRESHOLD,Combined PF+Command (designated baseline),P3,percent,frozen_endpoint_or_scenario,,,,0
+ood_test,secondary,COMBINED_PF_COMMAND_THRESHOLD,Combined PF+Command (designated baseline),Loc_Top1,percent,frozen_endpoint_or_scenario,,,,0
+ood_test,secondary,COMBINED_PF_COMMAND_THRESHOLD,Combined PF+Command (designated baseline),Loc_Top3,percent,frozen_endpoint_or_scenario,,,,0
+ood_test,secondary,COMBINED_PF_COMMAND_THRESHOLD,Combined PF+Command (designated baseline),scenario_AUPRC,unit_interval,posthoc_scenario_level,,,,0
+ood_test,secondary,COMBINED_PF_COMMAND_THRESHOLD,Combined PF+Command (designated baseline),scenario_AUROC,unit_interval,posthoc_scenario_level,,,,0
+ood_test,secondary,COMBINED_PF_COMMAND_THRESHOLD,Combined PF+Command (designated baseline),recall_at_posthoc_1pct_benign_scenario_FPR,percent,posthoc_scenario_level,,,,0

@@ -1,0 +1,30 @@
+% REVIEW ONLY, pending user approval; source is SHA-verified frozen Step-14 OOD paired differences.
+% Requires \usepackage{booktabs}; single-column IEEE table.
+\begin{table}[!t]
+\caption{OOD feature-ablation changes (percentage points)}
+\label{tab:feature_ablation}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3.0pt}
+\renewcommand{\arraystretch}{1.05}
+\begin{tabular}{@{}lccc@{}}
+\toprule
+\textbf{Addition} & \textbf{$\Delta$P1} & \textbf{$\Delta$P3} & \textbf{$\Delta$Top-1} \\
+\midrule
+LGBM: +PF & \shortstack{+14.4\\{[+11.7,+17.2]}} & -- & -- \\
+GCN--GRU: +PF & \shortstack{+19.3\\{[+17.6,+21.3]}} & \shortstack{+7.8\\{[+6.8,+8.8]}} & \shortstack{+10.0\\{[+8.6,+11.3]}} \\
+\addlinespace[2pt]\midrule
+LGBM: +Cmd & \shortstack{+3.4\\{[+0.8,+6.1]}} & -- & -- \\
+GCN--GRU: +Cmd & \shortstack{+0.5\\{[-0.4,+1.4]}} & \shortstack{+3.1\\{[+2.1,+4.2]}} & \shortstack{+6.3\\{[+5.3,+7.5]}} \\
+\bottomrule
+\end{tabular}
+\vspace{2pt}
+\par\vspace{2pt}
+\begin{minipage}{0.98\columnwidth}
+\fontsize{6.7}{7.6}\selectfont
+Values are paired differences [95\% CI] at frozen primary thresholds.
++PF: Base12 $\to$ PF14; +Cmd: PF14 $\to$ Full16.
+LGBM Base12/PF14 are detection-only (--: not applicable).
+Exploratory ablations; intervals are unadjusted.
+\end{minipage}
+\end{table}
